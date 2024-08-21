@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.item-container {
+  list-style-type: none;
+}
+.button {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #585076;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d4d2db;
+  color: #d4d2db;
+  margin: 8px;
+}
+.button-container {
+  display: flex;
+}

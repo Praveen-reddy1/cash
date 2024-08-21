@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  padding: 40px;
+  border-radius: 10px;
+  width: 500px;
+}
+.user-details-container {
+  display: flex;
+}
+.initial {
+  width: 70px;
+  height: 70px;
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 22px;
+  padding-bottom: 10px;
+  color: #7c3aed;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-left: 15px;
+  margin-top: 38px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+  font-size: 25px;
+  font-family: Roboto;
+}
+.balance {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.currency {
+  color: #585076;
+  font-size: 20px;
+  font-family: Roboto;
+  padding-top: 40px;
+}
+.withdrawal {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: Roboto;
+}
+.choose-sum {
+  color: #585076;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.denominations-list{
+  display: flex;
+  flex-wrap: wrap;
+}
